@@ -22,6 +22,10 @@ jobs:
         - ${{ github.workspace }}:/cre/python
     steps:
       - uses: actions/checkout@v3
+      - name: Set ownership
+        run: |
+          # this is to fix GIT not liking owner of the checkout dir
+          chown -R $(id -u):$(id -g) $PWD
 #        with:
 #          ref: master
 ##      - name: Install pandoc
