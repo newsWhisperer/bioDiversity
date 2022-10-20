@@ -1,4 +1,4 @@
-import secrets
+import mysecrets
 import os
 
 #pip3 install newsapi-python
