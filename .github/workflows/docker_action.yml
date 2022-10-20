@@ -34,6 +34,8 @@ jobs:
         run: (pip3 install asyncio)
       - name: cd /cre/python/
         run: (cd /cre/python/)
+      - name: cp secrets.py
+        run: (cp secrets.orig.py secrets.py)
       - name: Run newsapi
         run: (python3 newsapi.py)
       - name: Submit changes       
