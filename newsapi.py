@@ -1,5 +1,6 @@
 import mysecrets
 import os
+import sys
 
 #pip3 install newsapi-python
 import pandas as pd
@@ -134,8 +135,9 @@ def archiveUrl(data):
                         data['published'] = jsonData['mementos']['closest']['datetime']
                 #'closest'
     except:
-#    except Exception as e:        
-#    except requests.exceptions.RequestException as e:  # This is the correct syntax
+#    except Exception as e:    
+#    except json.decoder.JSONDecodeError as e:    
+#    except requests.exceptions.RequestException as e:  
         e = sys.exc_info()[0]
         print("not archived yet")
         saveUrl = 'https://web.archive.org/save/' + data['url'] # archive.org
