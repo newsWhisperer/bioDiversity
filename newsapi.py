@@ -200,7 +200,7 @@ def filterNewAndArchive(articles, language, keyWord):
 def inqRandomNews():
     apiKey = os.getenv('NEWSAPI_KEY')
     if(apiKey == '1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7'): 
-        print('Please set newsapi.org key in file: secrets.py');
+        print('Please set newsapi.org key in file: mysecrets.py');
         return None
 
     #keyWord = random.choice(searchWords)
