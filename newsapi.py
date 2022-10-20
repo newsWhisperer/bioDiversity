@@ -145,8 +145,13 @@ def archiveUrl(data):
         #saveUrl = 'https://archive.ph/submit/'
 
         ##  pip3 install aiohttp
-        loop = asyncio.get_event_loop()
-        loop.run_until_complete(saveArchive(saveUrl))
+        try:
+           loop = asyncio.get_event_loop()
+           loop.run_until_complete(saveArchive(saveUrl))
+        except:
+           e2 = sys.exc_info()[0]
+           print("something more went wrong")            
+
         #async with aiohttp.ClientSession() as session:
         #    async with session.get(saveUrl) as response:
         #        print(await response.status())        
