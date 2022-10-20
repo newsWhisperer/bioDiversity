@@ -86,9 +86,12 @@ def storeCollection():
 #https://web.archive.org/save/https://translate.google.com/translate?sl=de&tl=en&u=
 #https://web.archive.org/save/https://translate.google.com/translate?sl=de&tl=en&u=https://www.nikos-weinwelten.de/beitrag/weinbau_reagiert_auf_den_klimawandel_abschied_vom_oechsle_hin_zur_nachhaltigkeit/
 
+
+# https://docs.aiohttp.org/en/stable/client_reference.html
+# 
 async def saveArchive(saveUrl):
     async with aiohttp.ClientSession() as session:
-      async with session.get(saveUrl) as response:
+      async with session.get(saveUrl, timeout=120) as response:
         print("x")   
 
 async def getArchives(urlList):
@@ -122,7 +125,7 @@ def archiveUrl(data):
         timetravelDate = pubDate.strftime('%Y%m%d')
     timetravelUrl = 'http://timetravel.mementoweb.org/api/json/'+timetravelDate+'/'+data['url']
     try:
-        page = requests.get(timetravelUrl, timeout=20)
+        page = requests.get(timetravelUrl, timeout=30)
         if page.status_code == 200:
             content = page.content
             #print(content)
@@ -150,7 +153,7 @@ def archiveUrl(data):
            loop.run_until_complete(saveArchive(saveUrl))
         except:
            e2 = sys.exc_info()[0]
-           print("something more went wrong")            
+           print("something more went wrong (timeout/redirect/...)")            
 
         #async with aiohttp.ClientSession() as session:
         #    async with session.get(saveUrl) as response:
