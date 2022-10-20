@@ -1,0 +1,36 @@
+# This is a basic workflow to help you get started with Actions
+
+name: docker_action:0.0
+
+on:
+  push:
+    branches:
+      - 'main'
+  workflow_dispatch:
+  schedule:
+    # * is a special character in YAML so you have to quote this string : daily,every 6 hours #m h d/m m d/w 
+    - cron:  '00 */6 * * *'
+
+jobs:
+  docker-run-action:
+    runs-on: ubuntu-latest
+    container:
+      image: tamboraorg/crecoding:2020.0
+      env:
+        NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+      volumes:
+        - ${{ github.workspace }}:/cre/python
+    steps:
+      - uses: actions/checkout@v3
+#        with:
+#          ref: master
+##      - name: Install pandoc
+##        run: (apt-get -y --no-install-recommends install pandoc) 
+##      - name: Install markdown
+##        run: (R -e "install.packages('rmarkdown')")
+      - name: cd /cre/python/
+        run: (cd /cre/python/)
+      - name: Run newsapi
+        run: (python3 newsapi.py)
+      - name: Submit changes       
+        uses: EndBug/add-and-commit@v9

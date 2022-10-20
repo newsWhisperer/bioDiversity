@@ -1,4 +1,5 @@
 import os
+## copy this file to secrets.py and adapt your private settings (cp secrets.orig.py secrets.py)
 
 ## setings for inquiring articles from newsapi.org
 #  Get API Key: https://newsapi.org/register &  https://newsapi.org/account
