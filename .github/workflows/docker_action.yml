@@ -32,10 +32,14 @@ jobs:
         run: (pip3 install aiohttp)
       - name: install asyncio
         run: (pip3 install asyncio)
+#      - name: install numpy
+#        run: (pip3 install numpy)
+#      - name: install pandas
+#        run: (pip3 install pandas)
       - name: cd /cre/python/
         run: (cd /cre/python/)
-      - name: cp secrets.py
-        run: (cp secrets.orig.py secrets.py)
+      - name: cp mysecrets.py
+        run: (cp mysecrets.orig.py mysecrets.py)
       - name: Run newsapi
         run: (python3 newsapi.py)
       - name: Submit changes       
