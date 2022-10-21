@@ -17,6 +17,8 @@ import time
 import smtplib
 import random
 
+import glob
+
 import datetime
 from dateutil import parser
 
@@ -209,6 +211,23 @@ def filterNewAndArchive(articles, language, keyWord):
                 newArticles.append(data)
     return newArticles
 
+def getNewsFiles(state='harvest'):
+    fileName = './csv/news_????_??.csv'
+    if(state):
+        fileName = './csv/news_'+state+'_????_??.csv'
+    files = glob.glob(fileName)
+    return files  
+
+def getLatestFileAge():
+    minAge = 1E6
+    now = time.time()
+    for fileName in getNewsFiles(state=None):
+        modifyDate = os.path.getmtime(fileName)
+        fileAge = now-modifyDate
+        if(fileAge<minAge):
+            minAge = fileAge
+    return minAge        
+
 
 def inqRandomNews():
     apiKey = os.getenv('NEWSAPI_KEY')
@@ -295,5 +314,5 @@ while True:
   #time.sleep(20)
   time.sleep(1000)
 """
-
-inqRandomNews()
+if(getLatestFileAge()>60*60*5):
+    inqRandomNews()

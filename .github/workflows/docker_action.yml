@@ -8,9 +8,12 @@ on:
       - 'main'
   workflow_dispatch:
   schedule:
-    # * is a special character in YAML so you have to quote this string : daily,every 6 hours #m h d/m m d/w 
-    - cron:  '00 */6 * * *'
-
+    # * is a special character in YAML so you have to quote this string : 
+#    daily,every 6 hours #m h d/m m d/w 
+#    - cron:  '00 */6 * * *'
+#    every 2 hour, but run only, when last collection > 5h
+    - cron:  '00 */2 * * *'
+   
 jobs:
   docker-run-action:
     runs-on: ubuntu-latest
@@ -35,8 +38,6 @@ jobs:
       - name: cd /cre/python/
         run: (cd /cre/python/)
       - name: cp mysecrets.py
-        run: (cp mysecrets.orig.py mysecrets.py)
-      - name: env
         run: (cp mysecrets.orig.py mysecrets.py)
       - name: Run newsapi
         env:
