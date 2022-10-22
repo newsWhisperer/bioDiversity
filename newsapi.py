@@ -222,6 +222,7 @@ def getLatestFileAge():
     minAge = 1E6
     now = time.time()
     for fileName in getNewsFiles(state=None):
+        print([os.path.getatime(fileName),os.path.getctime(fileName),os.path.getmtime(fileName)])
         modifyDate = os.path.getmtime(fileName)
         fileAge = now-modifyDate
         print(fileAge)
