@@ -224,6 +224,7 @@ def getLatestFileAge():
     for fileName in getNewsFiles(state=None):
         modifyDate = os.path.getmtime(fileName)
         fileAge = now-modifyDate
+        print(fileAge)
         if(fileAge<minAge):
             minAge = fileAge
     return minAge        
@@ -314,5 +315,7 @@ while True:
   #time.sleep(20)
   time.sleep(1000)
 """
-if(getLatestFileAge()>60*60*5):
+age = getLatestFileAge()
+print(age)
+if(age>60*60*5):
     inqRandomNews()
