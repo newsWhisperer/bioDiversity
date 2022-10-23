@@ -1,26 +1,26 @@
-"keyword","language"
-"'biodiversity'","en"
-"'species ectinction'","en"
-"'wildlife conservation'","en" 
-"'species conservation'","en"
-"'endangered species'","en"
-"'threatened species'","en" 
-"'insect mortality'","en" 
-"'insect ectinction'","en"
-"'diversity of species'","en"
-"'species diversity'","en"
-"'zero-extinction'","en"
-"'zero extinctions'","en"
-"'SDG 14'","en" 
-"'SDG 15'","en"
-"'Sustainable Development Goal 14'","en"
-"'Sustainable Development Goal 15'","en"
-"'land degradation'","en"
-"'deforestation'","en"
-"'Desertification'","en" 
-"'ecosystem'","en" 
-"'invasive alien species '","en"
-"'protected species'","en" 
-"'rare species'","en" 
-"'poaching'","en" 
-"'invasive species'","en"
+"keyword","language","topic","topicColor","keywordColor","limitPages"
+"'biodiversity'","en","biodiversity","AA3366","994455",3
+"'species extinction'","en","extinction","7733FF","8844EE",3
+"'wildlife conservation'","en" ,"conservation","2233BB","3344AA",3
+"'species conservation'","en","conservation","2233BB","3344AA",3
+"'endangered species'","en","extinction","7733FF","8844EE",3
+"'threatened species'","en","extinction","7733FF","8844EE",3 
+"'insect mortality'","en","extinction","7733FF","8844EE",3 
+"'insect extinction'","en","extinction","7733FF","8844EE",3
+"'diversity of species'","en","biodiversity","AA3366","994455",3
+"'species diversity'","en","biodiversity","AA3366","994455",3
+"'zero-extinction'","en","conservation","2233BB","3344AA",3
+"'zero extinctions'","en","conservation","2233BB","3344AA",3
+"'SDG 14'","en","conservation","2233BB","3344AA",3 
+"'SDG 15'","en","conservation","2233BB","3344AA",3
+"'Sustainable Development Goal 14'","en","conservation","2233BB","3344AA",3
+"'Sustainable Development Goal 15'","en","conservation","2233BB","3344AA",3
+"'land degradation'","en","environment","33CC66","22BB55",3
+"'deforestation'","en","environment","33CC66","22BB55",3
+"'Desertification'","en","environment","33CC66","22BB55",3 
+"'ecosystem'","en","environment","33CC66","22BB55",3 
+"'invasive alien species'","en","invasive","AA33CC","9944AA",3
+"'protected species'","en","conservation","2233BB","3344AA",3 
+"'rare species'","en","extinction","7733FF","8844EE",3 
+"'poaching'","en","extinction","7733FF","8844EE",3 
+"'invasive species'","en","invasive","AA33CC","9944AA",3
