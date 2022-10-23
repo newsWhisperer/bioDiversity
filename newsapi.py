@@ -318,5 +318,5 @@ while True:
 """
 age = getLatestFileAge()
 print(age)
-if(age>60*60*5):
+if(age>60*60*5*0):
     inqRandomNews()
