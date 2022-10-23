@@ -25,7 +25,7 @@ from dateutil import parser
 DATA_PATH = Path.cwd()
 
 keywordsDF = pd.read_csv(DATA_PATH / 'keywords.csv', delimiter=',',index_col='keyword')
-keywordsDF['uniqueString'] = keywordsDF['keyword'] + "_" + keywordsDF['language'] + "_" + keywordsDF['topic']
+keywordsDF['uniqueString'] = keywordsDF.index + "_" + keywordsDF['language'] + "_" + keywordsDF['topic']
 keywordsDF['crc'] = keywordsDF['uniqueString'].apply(
     lambda x: 
         hashlib.sha256(x.encode()).hexdigest()
