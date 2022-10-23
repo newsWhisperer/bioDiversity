@@ -16,7 +16,7 @@ import json
 import time
 import smtplib
 import random
-
+import hashlib
 import glob
 
 import datetime
@@ -25,6 +25,12 @@ from dateutil import parser
 DATA_PATH = Path.cwd()
 
 keywordsDF = pd.read_csv(DATA_PATH / 'keywords.csv', delimiter=',',index_col='keyword')
+keywordsDF['uniqueString'] = keywordsDF['keyword'] + "_" + keywordsDF['language'] + "_" + keywordsDF['topic']
+keywordsDF['crc'] = keywordsDF['uniqueString'].apply(
+    lambda x: 
+        hashlib.sha256(x.encode()).hexdigest()
+)
+
 searchWords = dict(zip(keywordsDF.index.values, keywordsDF.language.values))
 
 #print(keywordsDF)
@@ -236,6 +242,11 @@ def inqRandomNews():
     if(apiKey == '1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7'): 
         print('Please set newsapi.org key in file: mysecrets.py');
         return None
+
+
+    #r = df.sample()  
+    #if FoundAny: newLimit = minimum(currPage+1,limitPage)
+    #if foundNothing:  newLimit = maximum(1,random.choice(range(currPage-1,limitPage-1)))
 
     #keyWord = random.choice(searchWords)
     #language = 'de'
