@@ -271,7 +271,8 @@ def inqRandomNews():
         print('keyword: '+keyWord+'; Page: '+str(currPage))
         # https://newsapi.org/docs/endpoints/everything
         url = ('https://newsapi.org/v2/everything?'+
-            'q='+keyWord+'&'
+            'q="'+keyWord+'"&'
+            #'q='+keyWord+'&'
             'language='+language+'&'
             'page='+str(currPage)+'&'
             'sortBy='+sort+'&'
@@ -288,7 +289,9 @@ def inqRandomNews():
             jsonData = json.loads(response.text)
             if (('ok'==jsonData['status']) and (jsonData['totalResults']>0)):
               if(len(jsonData['articles']) > 0):
-                newLimit = max(currPage+1,limitPages)
+                newLimit = limitPages
+                if(len(jsonData['articles']) > 50):
+                  newLimit = max(currPage+1,limitPages)                
                 print('#found Articles: '+str(len(jsonData['articles'])))
                 print("archive first")
                 newArticles = filterNewAndArchive(jsonData['articles'], language, keyWord)
