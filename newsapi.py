@@ -287,6 +287,7 @@ def inqRandomNews():
         if(response.text):
             jsonData = json.loads(response.text)
             if (('ok'==jsonData['status']) and (jsonData['totalResults']>0)):
+              if(len(jsonData['articles']) > 0):
                 newLimit = max(currPage+1,limitPages)
                 print('#found Articles: '+str(len(jsonData['articles'])))
                 print("archive first")
@@ -310,8 +311,9 @@ def inqRandomNews():
                 #print(["collectedNews: ",collectedNews])            
                 if(foundNew):         
                     storeCollection()
-
-    keywordsDF.at[rndKey.index, 'limitPages'] = newLimit    
+    #print(rndKey.index)
+    #keywordsDF.at[rndKey.index, 'limitPages'] = newLimit    
+    keywordsDF.loc[keywordsDF['crc'] == crc, 'limitPages'] = newLimit 
       
 
 #b'{"status":"ok","totalResults":1504,
