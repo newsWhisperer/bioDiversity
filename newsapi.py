@@ -24,17 +24,22 @@ from dateutil import parser
 
 DATA_PATH = Path.cwd()
 
-keywordsDF = pd.read_csv(DATA_PATH / 'keywords.csv', delimiter=',',index_col='keyword')
-keywordsDF['uniqueString'] = keywordsDF.index + "_" + keywordsDF['language'] + "_" + keywordsDF['topic']
+keywordsFields = ["keyword","language","topic","topicColor","keywordColor","limitPages"]
+keywordsDF = pd.read_csv(DATA_PATH / 'keywords.csv', delimiter=',')  #,index_col='keyword'
+keywordsDF['uniqueString'] = keywordsDF['keyword'] + "_" + keywordsDF['language'] + "_" + keywordsDF['topic']
 keywordsDF['crc'] = keywordsDF['uniqueString'].apply(
     lambda x: 
         hashlib.sha256(x.encode()).hexdigest()
 )
 
-searchWords = dict(zip(keywordsDF.index.values, keywordsDF.language.values))
 
-#print(keywordsDF)
-#print(searchWords)
+
+searchWords = dict(zip(keywordsDF.keyword.values, keywordsDF.language.values))
+
+print(keywordsDF)
+print(searchWords)
+
+print(keywordsDF.sample() )
 
 
 stopDomains = ["www.mydealz.de", "www.techstage.de", "www.nachdenkseiten.de", "www.amazon.de", "www.4players.de", "www.netzwelt.de", "www.nextpit.de",
@@ -244,7 +249,7 @@ def inqRandomNews():
         return None
 
 
-    #r = df.sample()  
+    rndKey = keywordsDF.sample()
     #if FoundAny: newLimit = minimum(currPage+1,limitPage)
     #if foundNothing:  newLimit = maximum(1,random.choice(range(currPage-1,limitPage-1)))
 
@@ -252,12 +257,14 @@ def inqRandomNews():
     #language = 'de'
     #language = 'en'   
     #language = 'fr' 
-    keyWord = random.choice(list(searchWords.keys()))
-    language = searchWords[keyWord]
+    keyWord = rndKey['keyword'].iloc[0]
+    language = rndKey['language'].iloc[0]
+    limitPages = rndKey['limitPages'].iloc[0]
+    print([keyWord, language])
     if(not 'xx'==language):
         #searchWords.pop(keyWord)
 
-        page = random.choice(['1','2','3','4','5'])  
+        page = random.choice(range(1,limitPages))  
         #page = '1'
         sort = random.choice(['relevancy', 'popularity', 'publishedAt'])
         #sort = 'relevancy'
@@ -315,7 +322,7 @@ def inqRandomNews():
 #              "publishedAt":"2021-07-16T15:06:00Z",
 #              "content":"Nach den langen und heftigen Regenf\xc3\xa4llen Mitte der Woche treten immer mehr katastrophale Folgen zutage: Die Zahl der Toten w\xc3\xa4chst, allein in Rheinland-Pfalz und Nordrhein-Westfalen sind \xc3\xbcber 100 Mens\xe2\x80\xa6 [+4840 chars]"}
 
-"""
+'''
 #time.sleep(80000)
 i=1
 while True:
@@ -326,8 +333,12 @@ while True:
   #time.sleep(200) # unless drop none-french
   #time.sleep(20)
   time.sleep(1000)
-"""
+'''
 age = getLatestFileAge()
 print(age)
 if(age>60*60*5*0):
     inqRandomNews()
+
+
+keywordsDF.to_csv(DATA_PATH / 'keywords.csv', columns=keywordsFields,index=False)  
+    
