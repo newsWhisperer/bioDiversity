@@ -257,24 +257,23 @@ def inqRandomNews():
     #language = 'de'
     #language = 'en'   
     #language = 'fr' 
+    crc = rndKey['crc'].iloc[0]
     keyWord = rndKey['keyword'].iloc[0]
     language = rndKey['language'].iloc[0]
     limitPages = rndKey['limitPages'].iloc[0]
+    currPage = random.choice(range(1,limitPages))  
+    newLimit = max(1,random.choice(range(currPage-1,limitPages-1)))  
+    
+      
     print([keyWord, language])
     if(not 'xx'==language):
-        #searchWords.pop(keyWord)
-
-        page = random.choice(range(1,limitPages))  
-        #page = '1'
         sort = random.choice(['relevancy', 'popularity', 'publishedAt'])
-        #sort = 'relevancy'
-
-        print('keyword: '+keyWord+'; Page: '+page)
+        print('keyword: '+keyWord+'; Page: '+str(currPage))
         # https://newsapi.org/docs/endpoints/everything
         url = ('https://newsapi.org/v2/everything?'+
             'q='+keyWord+'&'
             'language='+language+'&'
-            'page='+page+'&'
+            'page='+str(currPage)+'&'
             'sortBy='+sort+'&'
             'apiKey='+apiKey
             #'excludeDomains=www.zeit.de,www.reuters.com'
@@ -288,10 +287,13 @@ def inqRandomNews():
         if(response.text):
             jsonData = json.loads(response.text)
             if (('ok'==jsonData['status']) and (jsonData['totalResults']>0)):
+                newLimit = max(currPage+1,limitPages)
                 print('#found Articles: '+str(len(jsonData['articles'])))
                 print("archive first")
                 newArticles = filterNewAndArchive(jsonData['articles'], language, keyWord)
                 print('#new Articles: '+str(len(newArticles)))
+                if(len(newArticles)/len(jsonData['articles'])>0.5):
+                    newLimit = max(currPage+2,limitPages)
                 if(len(newArticles) in [1,2]):     
                     print("sleep")   
                     time.sleep(60)
@@ -309,7 +311,7 @@ def inqRandomNews():
                 if(foundNew):         
                     storeCollection()
 
-
+    keywordsDF.at[rndKey.index, 'limitPages'] = newLimit    
       
 
 #b'{"status":"ok","totalResults":1504,
@@ -338,7 +340,5 @@ age = getLatestFileAge()
 print(age)
 if(age>60*60*5*0):
     inqRandomNews()
-
-
 keywordsDF.to_csv(DATA_PATH / 'keywords.csv', columns=keywordsFields,index=False)  
     
