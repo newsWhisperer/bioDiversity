@@ -261,8 +261,8 @@ def inqRandomNews():
     keyWord = rndKey['keyword'].iloc[0]
     language = rndKey['language'].iloc[0]
     limitPages = rndKey['limitPages'].iloc[0]
-    currPage = random.choice(range(1,limitPages))  
-    newLimit = max(1,random.choice(range(currPage-1,limitPages-1)))  
+    currPage = random.choice(range(1,limitPages+1))  
+    newLimit = max(1,random.choice(range(currPage-1,limitPages)))  
     
       
     print([keyWord, language])
