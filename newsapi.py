@@ -264,18 +264,21 @@ def inqRandomNews():
     keyWord = rndKey['keyword'].iloc[0]
     language = rndKey['language'].iloc[0]
     limitPages = rndKey['limitPages'].iloc[0]
+    ratioNew = rndKey['ratioNew'].iloc[0]
     currPage = random.choice(range(1,limitPages+1))  
-    newLimit = max(1,random.choice(range(currPage-1,limitPages)))  
-    
-      
+    newLimit = max(1,random.choice(range(currPage-1,limitPages)))
+    currRatio = 0.0
+          
     print([keyWord, language])
     if(not 'xx'==language):
         sort = random.choice(['relevancy', 'popularity', 'publishedAt'])
+        pageSize = 50
         print('keyword: '+keyWord+'; Page: '+str(currPage))
         # https://newsapi.org/docs/endpoints/everything
         url = ('https://newsapi.org/v2/everything?'+
             'q="'+keyWord+'"&'
             #'q='+keyWord+'&'
+            'pageSize='+str(pageSize)+'&'
             'language='+language+'&'
             'page='+str(currPage)+'&'
             'sortBy='+sort+'&'
@@ -294,14 +297,15 @@ def inqRandomNews():
               if(len(jsonData['articles']) > 0):
                 deltaLimit = 0
                 #newLimit = limitPages
-                if(len(jsonData['articles']) > 50):
+                if(len(jsonData['articles']) > 30):
                   deltaLimit += 1  
                   #newLimit = max(currPage+1,limitPages)                
                 print('#found Articles: '+str(len(jsonData['articles'])))
                 print("archive first")
                 newArticles = filterNewAndArchive(jsonData['articles'], language, keyWord)
                 print('#new Articles: '+str(len(newArticles)))
-                if(len(newArticles)/len(jsonData['articles'])>0.5):
+                currRatio = len(newArticles)/len(jsonData['articles'])
+                if(currRatio>0.5):
                     deltaLimit += 1
                     #newLimit = max(currPage+2,limitPages)
                 newlimit =  max(currPage+deltaLimit,limitPages)   
@@ -324,6 +328,8 @@ def inqRandomNews():
     #print(rndKey.index)
     #keywordsDF.at[rndKey.index, 'limitPages'] = newLimit    
     keywordsDF.loc[keywordsDF['crc'] == crc, 'limitPages'] = newLimit 
+    keywordsDF.loc[keywordsDF['crc'] == crc, 'ratioNew'] = currRatio*0.05+ratioNew*0.95
+        
       
 
 #b'{"status":"ok","totalResults":1504,
