@@ -24,4 +24,4 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'protected species',en,conservation,#2d5496,#1e4485,1,0.5
 'rare species',en,extinction,#802017,#b03227,1,0.5
 'poaching',en,extinction,#802017,#52140f,4,0.5
-'invasive species',en,invasive,#ba30ba,#751575,3,0.5
+'invasive species',en,invasive,#ba30ba,#751575,1,0.492
