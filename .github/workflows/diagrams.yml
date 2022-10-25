@@ -34,3 +34,7 @@ jobs:
         run: (python3 diagrams.py)
       - name: Submit changes       
         uses: EndBug/add-and-commit@v9
+        with:
+#          pull: '--rebase --autostash ...'
+          add: 'img/*.png'
+          tag_push: '--force'
