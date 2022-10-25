@@ -206,6 +206,7 @@ def extractData(article, language, keyWord):
 def filterNewAndArchive(articles, language, keyWord):
     global collectedNews
     newArticles = []
+    startTime = time.time()
     for article in articles:
         data = extractData(article, language, keyWord) 
         if (dataIsNotBlocked(data)):
@@ -220,6 +221,8 @@ def filterNewAndArchive(articles, language, keyWord):
             if(not data['url'] in collectedNews[fileDate]):
                 data = archiveUrl(data)
                 newArticles.append(data)
+        if((time.time() - startTime) > 60*20):
+            return newArticles        
     return newArticles
 
 def getNewsFiles(state='harvest'):
@@ -289,15 +292,19 @@ def inqRandomNews():
             jsonData = json.loads(response.text)
             if (('ok'==jsonData['status']) and (jsonData['totalResults']>0)):
               if(len(jsonData['articles']) > 0):
-                newLimit = limitPages
+                deltaLimit = 0
+                #newLimit = limitPages
                 if(len(jsonData['articles']) > 50):
-                  newLimit = max(currPage+1,limitPages)                
+                  deltaLimit += 1  
+                  #newLimit = max(currPage+1,limitPages)                
                 print('#found Articles: '+str(len(jsonData['articles'])))
                 print("archive first")
                 newArticles = filterNewAndArchive(jsonData['articles'], language, keyWord)
                 print('#new Articles: '+str(len(newArticles)))
                 if(len(newArticles)/len(jsonData['articles'])>0.5):
-                    newLimit = max(currPage+2,limitPages)
+                    deltaLimit += 1
+                    #newLimit = max(currPage+2,limitPages)
+                newlimit =  max(currPage+deltaLimit,limitPages)   
                 if(len(newArticles) in [1,2]):     
                     print("sleep")   
                     time.sleep(60)

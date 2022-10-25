@@ -55,7 +55,7 @@ topicsDF = pd.merge(topicsDF, topicsColorsDF, how='left', left_on=['topic'], rig
 topicsDF = topicsDF.sort_values('index', ascending=False)
 axTopics = plt.subplot(gs[0,0])
 axTopics.set_title("Topics", fontsize=24)
-plot = topicsDF.plot.pie(y='index', ax=axTopics, colors='#'+topicsDF['topicColor'], labels=topicsDF['topic'],legend=False,ylabel='')
+plot = topicsDF.plot.pie(y='index', ax=axTopics, colors=topicsDF['topicColor'], labels=topicsDF['topic'],legend=False,ylabel='')
 #plot = topicsDF.plot(kind='pie', y='index', ax=axKeywords, colors='#'+keywordsDF['keywordColor'])
 
 
@@ -64,7 +64,7 @@ keywordsDF = pd.merge(keywordsDF, keywordsColorsDF, how='left', left_on=['keywor
 keywordsDF = keywordsDF.sort_values('index', ascending=False)
 axKeywords = plt.subplot(gs[0,1])
 axKeywords.set_title("Keywords", fontsize=24)
-plot = keywordsDF.plot.pie(y='index', ax=axKeywords, colors='#'+keywordsDF['keywordColor'], labels=keywordsDF['keyword'],legend=False,ylabel='')
+plot = keywordsDF.plot.pie(y='index', ax=axKeywords, colors=keywordsDF['keywordColor'], labels=keywordsDF['keyword'],legend=False,ylabel='')
 #plot = topicsDF.plot(kind='pie', y='index', ax=axKeywords, colors='#'+keywordsDF['keywordColor'])
 
 
