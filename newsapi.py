@@ -24,7 +24,7 @@ from dateutil import parser
 
 DATA_PATH = Path.cwd()
 
-keywordsFields = ["keyword","language","topic","topicColor","keywordColor","limitPages"]
+keywordsFields = ["keyword","language","topic","topicColor","keywordColor","limitPages","ratioNew"]
 keywordsDF = pd.read_csv(DATA_PATH / 'keywords.csv', delimiter=',')  #,index_col='keyword'
 keywordsDF['uniqueString'] = keywordsDF['keyword'] + "_" + keywordsDF['language'] + "_" + keywordsDF['topic']
 keywordsDF['crc'] = keywordsDF['uniqueString'].apply(
