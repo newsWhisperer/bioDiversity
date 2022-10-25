@@ -47,6 +47,5 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
 #          pull: '--rebase --autostash ...'
-          add: 'csv/*.csv'
-          add: 'keywords.csv'
+          add: 'csv/*.csv keywords.csv'
           tag_push: '--force'
