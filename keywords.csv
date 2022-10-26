@@ -20,7 +20,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'reforestation',en,environment,#a88532,#6e5d2c,3,0.5
 'Desertification',en,environment,#a88532,#968141,3,0.5
 'ecosystem',en,environment,#a88532,#debf76,3,0.5
-'invasive alien species',en,invasive,#ba30ba,#c248c2,3,0.5
+'invasive alien species',en,invasive,#ba30ba,#c248c2,2,0.475
 'protected species',en,conservation,#2d5496,#1e4485,1,0.5
 'rare species',en,extinction,#802017,#b03227,1,0.5
 'poaching',en,extinction,#802017,#52140f,4,0.5
