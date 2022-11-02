@@ -1,6 +1,7 @@
 import mysecrets
 import os
 import sys
+import math
 
 #pip3 install newsapi-python
 import pandas as pd
