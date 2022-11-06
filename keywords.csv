@@ -18,7 +18,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'land degradation',en,environment,#a88532,#735819,1,0.4968541666666666
 'deforestation',en,environment,#a88532,#96814e,1,0.4768
 'reforestation',en,environment,#a88532,#6e5d2c,2,0.475
-'Desertification',en,environment,#a88532,#968141,1,0.515
+'Desertification',en,environment,#a88532,#968141,1,0.51425
 'ecosystem',en,environment,#a88532,#debf76,2,0.497
 'invasive alien species',en,invasive,#ba30ba,#c248c2,1,0.4530625
 'protected species',en,conservation,#2d5496,#1e4485,1,0.5
