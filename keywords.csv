@@ -17,7 +17,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Sustainable Development Goal 15',en,conservation,#2d5496,#4168ab,1,0.4286874999999999
 'land degradation',en,environment,#a88532,#735819,1,0.4720114583333332
 'deforestation',en,environment,#a88532,#96814e,1,0.4768
-'reforestation',en,environment,#a88532,#6e5d2c,2,0.475
+'reforestation',en,environment,#a88532,#6e5d2c,1,0.49324999999999997
 'Desertification',en,environment,#a88532,#968141,1,0.51425
 'ecosystem',en,environment,#a88532,#debf76,2,0.497
 'invasive alien species',en,invasive,#ba30ba,#c248c2,1,0.4530625
