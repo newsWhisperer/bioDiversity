@@ -1,7 +1,7 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'biodiversity',en,biodiversity,#16520f,#226e18,1,0.5935663728125
 'species extinction',en,extinction,#802017,#a31d2f,1,0.399217015827442
-'wildlife conservation',en ,conservation,#2d5496,#0c1b63,1,0.013791845218386695
+'wildlife conservation',en ,conservation,#2d5496,#0c1b63,1,0.0137918452183866
 'species conservation',en,conservation,#2d5496,#4c60c7,1,0.5202704882775738
 'endangered species',en,extinction,#802017,#b33646,1,0.5547300000000001
 'threatened species',en,extinction,#802017,#a35b43,2,0.475
@@ -11,7 +11,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'species diversity',en,biodiversity,#16520f,#26571f,1,0.5007723557692307
 'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,0.0388228337673098
 'zero extinctions',en,conservation,#2d5496,#374587,1,0.1113701790691913
-'SDG 14',en,conservation,#2d5496,#3c70c9,1,0.4570811328124997
+'SDG 14',en,conservation,#2d5496,#3c70c9,1,0.43422707617187467
 'SDG 15',en,conservation,#2d5496,#14356e,1,0.1123718349805876
 'Sustainable Development Goal 14',en,conservation,#2d5496,#0c2652,1,0.4820154687499998
 'Sustainable Development Goal 15',en,conservation,#2d5496,#4168ab,1,0.4368904687499998
