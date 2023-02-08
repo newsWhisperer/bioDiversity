@@ -14,14 +14,14 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'SDG 14',en,conservation,#2d5496,#3c70c9,1,0.4342270761718746
 'SDG 15',en,conservation,#2d5496,#14356e,1,0.0971325119448741
 'Sustainable Development Goal 14',en,conservation,#2d5496,#0c2652,1,0.4820154687499998
-'Sustainable Development Goal 15',en,conservation,#2d5496,#4168ab,1,0.41504594531249983
+'Sustainable Development Goal 15',en,conservation,#2d5496,#4168ab,1,0.4150459453124998
 'land degradation',en,environment,#a88532,#735819,1,0.4720114583333332
 'deforestation',en,environment,#a88532,#96814e,1,0.4768
 'reforestation',en,environment,#a88532,#6e5d2c,1,0.5149227187499998
 'Desertification',en,environment,#a88532,#968141,1,0.5285375
 'ecosystem',en,environment,#a88532,#debf76,1,0.5107238562499999
 'invasive alien species',en,invasive,#ba30ba,#c248c2,1,0.2982906673819802
-'protected species',en,conservation,#2d5496,#1e4485,1,0.5111124999999999
+'protected species',en,conservation,#2d5496,#1e4485,1,0.5305568749999998
 'rare species',en,extinction,#802017,#b03227,1,0.4706454474541012
 'poaching',en,extinction,#802017,#52140f,1,0.580310662171875
 'invasive species',en,invasive,#ba30ba,#751575,1,0.4754028452715622
