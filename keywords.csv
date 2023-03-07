@@ -1,7 +1,7 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'biodiversity',en,biodiversity,#16520f,#226e18,1,0.5935663728125
 'species extinction',en,extinction,#802017,#a31d2f,1,0.399217015827442
-'wildlife conservation',en ,conservation,#2d5496,#0c1b63,1,0.00547831839870209
+'wildlife conservation',en ,conservation,#2d5496,#0c1b63,1,0.005478318398702
 'species conservation',en,conservation,#2d5496,#4c60c7,1,0.5192569638636951
 'endangered species',en,extinction,#802017,#b33646,1,0.577343825
 'threatened species',en,extinction,#802017,#a35b43,2,0.475
@@ -9,7 +9,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'insect extinction',en,extinction,#802017,#993412,1,0.0523242202233949
 'diversity of species',en,biodiversity,#16520f,#468c3c,1,0.5052266332799144
 'species diversity',en,biodiversity,#16520f,#26571f,1,0.4940641459433907
-'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,0.0232446646623991
+'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,0.022082431429279143
 'zero extinctions',en,conservation,#2d5496,#374587,1,0.0633184512127042
 'SDG 14',en,conservation,#2d5496,#3c70c9,1,0.4342270761718746
 'SDG 15',en,conservation,#2d5496,#14356e,1,0.0727700146404048
