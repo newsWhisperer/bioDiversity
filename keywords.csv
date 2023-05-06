@@ -9,7 +9,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'insect extinction',en,extinction,#802017,#993412,1,0.0101358023726065
 'diversity of species',en,biodiversity,#16520f,#468c3c,1,0.5299653016159186
 'species diversity',en,biodiversity,#16520f,#26571f,1,0.4940641459433907
-'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,0.06018864284760806
+'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,0.060188642847608
 'zero extinctions',en,conservation,#2d5496,#374587,1,0.0235868283252905
 'SDG 14',en,conservation,#2d5496,#3c70c9,1,0.4478058560995276
 'SDG 15',en,conservation,#2d5496,#14356e,1,0.057302953971909
@@ -18,7 +18,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'land degradation',en,environment,#a88532,#735819,1,0.5118135118775405
 'deforestation',en,environment,#a88532,#96814e,1,0.5138639549999999
 'reforestation',en,environment,#a88532,#6e5d2c,1,0.5697871476888671
-'Desertification',en,environment,#a88532,#968141,1,0.5578723390625
+'Desertification',en,environment,#a88532,#968141,1,0.5789787221093751
 'ecosystem',en,environment,#a88532,#debf76,1,0.5219282802656249
 'invasive alien species',en,invasive,#ba30ba,#c248c2,1,0.3601487466609109
 'protected species',en,conservation,#2d5496,#1e4485,1,0.5261562007031247
