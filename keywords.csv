@@ -1,7 +1,7 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'biodiversity',en,biodiversity,#16520f,#226e18,1,0.6092748954456114
 'species extinction',en,extinction,#802017,#a31d2f,1,0.428966188945053
-'wildlife conservation',en ,conservation,#2d5496,#0c1b63,1,0.00044371481446867496
+'wildlife conservation',en ,conservation,#2d5496,#0c1b63,1,0.0004437148144686
 'species conservation',en,conservation,#2d5496,#4c60c7,1,0.5051968080061071
 'endangered species',en,extinction,#802017,#b33646,1,0.5986550288614063
 'threatened species',en,extinction,#802017,#a35b43,1,0.5275802578124998
@@ -16,7 +16,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Sustainable Development Goal 14',en,conservation,#2d5496,#0c2652,1,0.5035233618935544
 'Sustainable Development Goal 15',en,conservation,#2d5496,#4168ab,1,0.3050969086360057
 'land degradation',en,environment,#a88532,#735819,1,0.5118135118775405
-'deforestation',en,environment,#a88532,#96814e,1,0.5582622193875
+'deforestation',en,environment,#a88532,#96814e,1,0.579349108418125
 'reforestation',en,environment,#a88532,#6e5d2c,1,0.5802977903044237
 'Desertification',en,environment,#a88532,#968141,1,0.568978296703711
 'ecosystem',en,environment,#a88532,#debf76,1,0.5219282802656249
