@@ -9,7 +9,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'insect extinction',en,extinction,#802017,#993412,1,0.0029595430456673
 'diversity of species',en,biodiversity,#16520f,#468c3c,1,0.525912732327414
 'species diversity',en,biodiversity,#16520f,#26571f,1,0.477236832426588
-'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,0.04903193841341884
+'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,0.0490319384134188
 'zero extinctions',en,conservation,#2d5496,#374587,1,0.0217902356997172
 'SDG 14',en,conservation,#2d5496,#3c70c9,1,0.4478947851298236
 'SDG 15',en,conservation,#2d5496,#14356e,1,0.0519645611713498
@@ -21,7 +21,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Desertification',en,environment,#a88532,#968141,1,0.5529027671363443
 'ecosystem',en,environment,#a88532,#debf76,1,0.4710402729397264
 'invasive alien species',en,invasive,#ba30ba,#c248c2,1,0.376581862909091
-'protected species',en,conservation,#2d5496,#1e4485,1,0.4986631725778415
+'protected species',en,conservation,#2d5496,#1e4485,1,0.4967300139489494
 'rare species',en,extinction,#802017,#b03227,1,0.4632806995955842
 'poaching',en,extinction,#802017,#52140f,1,0.6072914112806308
 'invasive species',en,invasive,#ba30ba,#751575,1,0.5268025163347179
