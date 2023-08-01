@@ -1,7 +1,7 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'biodiversity',en,biodiversity,#16520f,#226e18,1,0.6313705931396643
 'species extinction',en,extinction,#802017,#a31d2f,1,0.4545767030272121
-'wildlife conservation',en ,conservation,#2d5496,#0c1b63,1,0.000105527312266065
+'wildlife conservation',en ,conservation,#2d5496,#0c1b63,1,0.000105527312266
 'species conservation',en,conservation,#2d5496,#4c60c7,1,0.5120129049309028
 'endangered species',en,extinction,#802017,#b33646,1,0.5927222774183359
 'threatened species',en,extinction,#802017,#a35b43,1,0.5098097214966478
@@ -18,7 +18,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'land degradation',en,environment,#a88532,#735819,1,0.5315716734929659
 'deforestation',en,environment,#a88532,#96814e,1,0.59179444182999
 'reforestation',en,environment,#a88532,#6e5d2c,1,0.5132686770641425
-'Desertification',en,environment,#a88532,#968141,1,0.5252576287795271
+'Desertification',en,environment,#a88532,#968141,1,0.5459947473405508
 'ecosystem',en,environment,#a88532,#debf76,1,0.4784882592927401
 'invasive alien species',en,invasive,#ba30ba,#c248c2,1,0.376581862909091
 'protected species',en,conservation,#2d5496,#1e4485,1,0.4798935132515019
