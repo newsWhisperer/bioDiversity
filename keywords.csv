@@ -5,7 +5,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'species conservation',en,conservation,#2d5496,#4c60c7,1,0.5200789611468761
 'endangered species',en,extinction,#802017,#b33646,1,0.5650278682478951
 'threatened species',en,extinction,#802017,#a35b43,1,0.4627481099681883
-'insect mortality',en,extinction,#802017,#9c4122,1,0.010389201086363759
+'insect mortality',en,extinction,#802017,#9c4122,1,0.0103892010863637
 'insect extinction',en,extinction,#802017,#993412,1,0.0155396931888391
 'diversity of species',en,biodiversity,#16520f,#468c3c,1,0.5183644746027173
 'species diversity',en,biodiversity,#16520f,#26571f,1,0.4367285658451791
@@ -17,7 +17,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Sustainable Development Goal 15',en,conservation,#2d5496,#4168ab,1,0.2360781719927202
 'land degradation',en,environment,#a88532,#735819,1,0.5118434353274017
 'deforestation',en,environment,#a88532,#96814e,1,0.5991944837515659
-'reforestation',en,environment,#a88532,#6e5d2c,1,0.5226249810503886
+'reforestation',en,environment,#a88532,#6e5d2c,1,0.5194937319978691
 'Desertification',en,environment,#a88532,#968141,1,0.5417102594748471
 'ecosystem',en,environment,#a88532,#debf76,1,0.454563846328103
 'invasive alien species',en,invasive,#ba30ba,#c248c2,1,0.436769382955928
