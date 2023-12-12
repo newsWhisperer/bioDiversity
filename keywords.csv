@@ -6,7 +6,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'endangered species',en,extinction,#802017,#b33646,1,0.5507764748355003
 'threatened species',en,extinction,#802017,#a35b43,1,0.4746107044697789
 'insect mortality',en,extinction,#802017,#9c4122,1,0.0490454024574026
-'insect extinction',en,extinction,#802017,#993412,1,0.0031686495111988
+'insect extinction',en,extinction,#802017,#993412,1,0.00301021703563886
 'diversity of species',en,biodiversity,#16520f,#468c3c,1,0.5183644746027173
 'species diversity',en,biodiversity,#16520f,#26571f,1,0.4367285658451791
 'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,0.0004156945729942
