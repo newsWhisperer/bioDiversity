@@ -5,14 +5,14 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'species conservation',en,conservation,#2d5496,#4c60c7,1,0.5236282284138318
 'endangered species',en,extinction,#802017,#b33646,1,0.5422376510937252
 'threatened species',en,extinction,#802017,#a35b43,1,0.5150302463224963
-'insect mortality',en,extinction,#802017,#9c4122,1,0.00631768456171702
+'insect mortality',en,extinction,#802017,#9c4122,1,0.006317684561717
 'insect extinction',en,extinction,#802017,#993412,1,5.508571891774336e-05
 'diversity of species',en,biodiversity,#16520f,#468c3c,1,0.4864907962202531
 'species diversity',en,biodiversity,#16520f,#26571f,1,0.4986041034168726
 'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,6.195979731250496e-06
 'zero extinctions',en,conservation,#2d5496,#374587,1,4.984986879475317e-05
 'SDG 14',en,conservation,#2d5496,#3c70c9,1,0.3031877617249077
-'SDG 15',en,conservation,#2d5496,#14356e,1,0.0737747223614458
+'SDG 15',en,conservation,#2d5496,#14356e,1,0.0700859862433735
 'Sustainable Development Goal 14',en,conservation,#2d5496,#0c2652,1,0.482485529019146
 'Sustainable Development Goal 15',en,conservation,#2d5496,#4168ab,1,0.1895134410472763
 'land degradation',en,environment,#a88532,#735819,1,0.5323021789697023
