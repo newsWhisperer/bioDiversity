@@ -6,7 +6,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'endangered species',en,extinction,#802017,#b33646,1,0.5422376510937252
 'threatened species',en,extinction,#802017,#a35b43,1,0.5150302463224963
 'insect mortality',en,extinction,#802017,#9c4122,1,0.0685058939597407
-'insect extinction',en,extinction,#802017,#993412,1,0.028469770737725993
+'insect extinction',en,extinction,#802017,#993412,1,0.0284697707377259
 'diversity of species',en,biodiversity,#16520f,#468c3c,1,0.5013469046277393
 'species diversity',en,biodiversity,#16520f,#26571f,1,0.4986041034168726
 'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,3.7097619398719536e-06
@@ -23,5 +23,5 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'invasive alien species',en,invasive,#ba30ba,#c248c2,1,0.4535121773155812
 'protected species',en,conservation,#2d5496,#1e4485,1,0.4543255734394388
 'rare species',en,extinction,#802017,#b03227,1,0.4448590778952245
-'poaching',en,extinction,#802017,#52140f,1,0.6091852990201131
+'poaching',en,extinction,#802017,#52140f,1,0.5787260340691074
 'invasive species',en,invasive,#ba30ba,#751575,1,0.527222710693418
