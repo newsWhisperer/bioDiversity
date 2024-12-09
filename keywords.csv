@@ -12,14 +12,14 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,0.0004017081298936
 'zero extinctions',en,conservation,#2d5496,#374587,1,0.0066408748662374
 'SDG 14',en,conservation,#2d5496,#3c70c9,1,0.10137236904984
-'SDG 15',en,conservation,#2d5496,#14356e,1,0.05191023696865266
+'SDG 15',en,conservation,#2d5496,#14356e,1,0.0519102369686526
 'Sustainable Development Goal 14',en,conservation,#2d5496,#0c2652,1,0.4354431899397791
 'Sustainable Development Goal 15',en,conservation,#2d5496,#4168ab,1,0.1466397192016318
 'land degradation',en,environment,#a88532,#735819,1,0.4954552132867755
 'deforestation',en,environment,#a88532,#96814e,1,0.6155091860824594
 'reforestation',en,environment,#a88532,#6e5d2c,1,0.5708518996798531
 'Desertification',en,environment,#a88532,#968141,1,0.5651651371641919
-'ecosystem',en,environment,#a88532,#debf76,1,0.5871572410823742
+'ecosystem',en,environment,#a88532,#debf76,1,0.5977993790282555
 'invasive alien species',en,invasive,#ba30ba,#c248c2,1,0.4748038394693705
 'protected species',en,conservation,#2d5496,#1e4485,1,0.4405246504727887
 'rare species',en,extinction,#802017,#b03227,1,0.4811824048748712
