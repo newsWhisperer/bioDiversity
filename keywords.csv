@@ -1,7 +1,7 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'biodiversity',en,biodiversity,#16520f,#226e18,1,0.6263511188816606
 'species extinction',en,extinction,#802017,#a31d2f,1,0.4950060858016157
-'wildlife conservation',en ,conservation,#2d5496,#0c1b63,1,7.895076298711019e-11
+'wildlife conservation',en ,conservation,#2d5496,#0c1b63,1,7.500322483775468e-11
 'species conservation',en,conservation,#2d5496,#4c60c7,1,0.5160640718102509
 'endangered species',en,extinction,#802017,#b33646,1,0.6032730808011585
 'threatened species',en,extinction,#802017,#a35b43,1,0.5304653949155032
