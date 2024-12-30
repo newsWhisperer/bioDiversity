@@ -12,7 +12,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,0.0001679623379309
 'zero extinctions',en,conservation,#2d5496,#374587,1,0.0388930018959631
 'SDG 14',en,conservation,#2d5496,#3c70c9,1,0.10137236904984
-'SDG 15',en,conservation,#2d5496,#14356e,1,0.025315323729569378
+'SDG 15',en,conservation,#2d5496,#14356e,1,0.0253153237295693
 'Sustainable Development Goal 14',en,conservation,#2d5496,#0c2652,1,0.4354431899397791
 'Sustainable Development Goal 15',en,conservation,#2d5496,#4168ab,1,0.1466397192016318
 'land degradation',en,environment,#a88532,#735819,1,0.4855483299913148
@@ -20,7 +20,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'reforestation',en,environment,#a88532,#6e5d2c,1,0.5708518996798531
 'Desertification',en,environment,#a88532,#968141,1,0.5651651371641919
 'ecosystem',en,environment,#a88532,#debf76,1,0.6161139395730006
-'invasive alien species',en,invasive,#ba30ba,#c248c2,1,0.4748038394693705
+'invasive alien species',en,invasive,#ba30ba,#c248c2,1,0.47606364749590196
 'protected species',en,conservation,#2d5496,#1e4485,1,0.4405246504727887
 'rare species',en,extinction,#802017,#b03227,1,0.5031232846311277
 'poaching',en,extinction,#802017,#52140f,1,0.6235926586736941
