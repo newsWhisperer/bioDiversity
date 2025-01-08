@@ -1,7 +1,7 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'biodiversity',en,biodiversity,#16520f,#226e18,1,0.6320335629375776
 'species extinction',en,extinction,#802017,#a31d2f,1,0.4950060858016157
-'wildlife conservation',en ,conservation,#2d5496,#0c1b63,1,5.237754923150916e-11
+'wildlife conservation',en ,conservation,#2d5496,#0c1b63,1,5.2377549231509156e-11
 'species conservation',en,conservation,#2d5496,#4c60c7,1,0.5152608682197384
 'endangered species',en,extinction,#802017,#b33646,1,0.6032730808011585
 'threatened species',en,extinction,#802017,#a35b43,1,0.5330950189112416
@@ -10,7 +10,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'diversity of species',en,biodiversity,#16520f,#468c3c,1,0.432884147816109
 'species diversity',en,biodiversity,#16520f,#26571f,1,0.512745787037566
 'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,0.0476368063740091
-'zero extinctions',en,conservation,#2d5496,#374587,1,0.0351009342111066
+'zero extinctions',en,conservation,#2d5496,#374587,1,0.033345887500551265
 'SDG 14',en,conservation,#2d5496,#3c70c9,1,0.146303750597348
 'SDG 15',en,conservation,#2d5496,#14356e,1,0.0668297256826393
 'Sustainable Development Goal 14',en,conservation,#2d5496,#0c2652,1,0.4354431899397791
@@ -20,7 +20,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'reforestation',en,environment,#a88532,#6e5d2c,1,0.5708518996798531
 'Desertification',en,environment,#a88532,#968141,1,0.5651651371641919
 'ecosystem',en,environment,#a88532,#debf76,1,0.6161139395730006
-'invasive alien species',en,invasive,#ba30ba,#c248c2,1,0.42964744186505144
+'invasive alien species',en,invasive,#ba30ba,#c248c2,1,0.4296474418650514
 'protected species',en,conservation,#2d5496,#1e4485,1,0.4405246504727887
 'rare species',en,extinction,#802017,#b03227,1,0.5031232846311277
 'poaching',en,extinction,#802017,#52140f,1,0.6235926586736941
