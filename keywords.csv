@@ -6,13 +6,13 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'endangered species',en,extinction,#802017,#b33646,1,0.6370669989013064
 'threatened species',en,extinction,#802017,#a35b43,1,0.5585565554691515
 'insect mortality',en,extinction,#802017,#9c4122,1,0.000527064754052
-'insect extinction',en,extinction,#802017,#993412,1,0.0022470010135605
+'insect extinction',en,extinction,#802017,#993412,1,0.0021346509628824752
 'diversity of species',en,biodiversity,#16520f,#468c3c,1,0.4216765307135925
 'species diversity',en,biodiversity,#16520f,#26571f,1,0.4835749599609705
 'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,0.0257811068422831
 'zero extinctions',en,conservation,#2d5496,#374587,1,0.0168324968719026
 'SDG 14',en,conservation,#2d5496,#3c70c9,1,0.1662122073522611
-'SDG 15',en,conservation,#2d5496,#14356e,1,0.08608909764037423
+'SDG 15',en,conservation,#2d5496,#14356e,1,0.0860890976403742
 'Sustainable Development Goal 14',en,conservation,#2d5496,#0c2652,1,0.4636710304427901
 'Sustainable Development Goal 15',en,conservation,#2d5496,#4168ab,1,0.1323423465794727
 'land degradation',en,environment,#a88532,#735819,1,0.450998194650314
