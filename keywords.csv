@@ -16,12 +16,12 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Sustainable Development Goal 14',en,conservation,#2d5496,#0c2652,1,0.4636710304427901
 'Sustainable Development Goal 15',en,conservation,#2d5496,#4168ab,1,0.119438967787974
 'land degradation',en,environment,#a88532,#735819,1,0.475114951584465
-'deforestation',en,environment,#a88532,#96814e,1,0.6636837457100127
+'deforestation',en,environment,#a88532,#96814e,1,0.680499558424512
 'reforestation',en,environment,#a88532,#6e5d2c,1,0.6187837393247487
 'Desertification',en,environment,#a88532,#968141,1,0.5572538204121155
 'ecosystem',en,environment,#a88532,#debf76,1,0.6586745875704806
 'invasive alien species',en,invasive,#ba30ba,#c248c2,1,0.4469607565927753
 'protected species',en,conservation,#2d5496,#1e4485,1,0.4919581276259482
-'rare species',en,extinction,#802017,#b03227,1,0.49918075832360637
+'rare species',en,extinction,#802017,#b03227,1,0.4991807583236063
 'poaching',en,extinction,#802017,#52140f,1,0.5987383828043867
 'invasive species',en,invasive,#ba30ba,#751575,1,0.5541428071364071
