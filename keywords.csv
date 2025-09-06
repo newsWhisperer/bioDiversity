@@ -21,7 +21,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Desertification',en,environment,#a88532,#968141,1,0.5647569830500463
 'ecosystem',en,environment,#a88532,#debf76,1,0.6427961023832378
 'invasive alien species',en,invasive,#ba30ba,#c248c2,1,0.4103250699950568
-'protected species',en,conservation,#2d5496,#1e4485,1,0.4779291992037559
+'protected species',en,conservation,#2d5496,#1e4485,1,0.4679862276156611
 'rare species',en,extinction,#802017,#b03227,1,0.5153349489650216
 'poaching',en,extinction,#802017,#52140f,1,0.5722876229034083
 'invasive species',en,invasive,#ba30ba,#751575,1,0.551075806529546
