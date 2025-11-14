@@ -5,7 +5,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'species conservation',en,conservation,#2d5496,#4c60c7,1,0.4457714978870907
 'endangered species',en,extinction,#802017,#b33646,1,0.4802924248961601
 'threatened species',en,extinction,#802017,#a35b43,1,0.5296750780094177
-'insect mortality',en,extinction,#802017,#9c4122,1,0.03547995712845697
+'insect mortality',en,extinction,#802017,#9c4122,1,0.0354799571284569
 'insect extinction',en,extinction,#802017,#993412,1,0.0284458598104207
 'diversity of species',en,biodiversity,#16520f,#468c3c,1,0.5019467657619776
 'species diversity',en,biodiversity,#16520f,#26571f,1,0.4936224676537417
@@ -20,7 +20,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'reforestation',en,environment,#a88532,#6e5d2c,1,0.5493650611186093
 'Desertification',en,environment,#a88532,#968141,1,0.5458036598572671
 'ecosystem',en,environment,#a88532,#debf76,1,0.547596791514264
-'invasive alien species',en,invasive,#ba30ba,#c248c2,1,0.4398088164953039
+'invasive alien species',en,invasive,#ba30ba,#c248c2,1,0.451151709003872
 'protected species',en,conservation,#2d5496,#1e4485,1,0.4679862276156611
 'rare species',en,extinction,#802017,#b03227,1,0.5045682015167705
 'poaching',en,extinction,#802017,#52140f,1,0.5722876229034083
