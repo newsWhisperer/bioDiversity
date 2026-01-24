@@ -1,5 +1,5 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
-'biodiversity',en,biodiversity,#16520f,#226e18,1,0.5727906678153167
+'biodiversity',en,biodiversity,#16520f,#226e18,1,0.5574164405469999
 'species extinction',en,extinction,#802017,#a31d2f,1,0.5088885834187643
 'wildlife conservation',en ,conservation,#2d5496,#0c1b63,1,5.939987729761868e-16
 'species conservation',en,conservation,#2d5496,#4c60c7,1,0.4638218345044408
@@ -15,7 +15,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'SDG 15',en,conservation,#2d5496,#14356e,1,0.2355091659065472
 'Sustainable Development Goal 14',en,conservation,#2d5496,#0c2652,1,0.4298342885960154
 'Sustainable Development Goal 15',en,conservation,#2d5496,#4168ab,1,0.045580631292213
-'land degradation',en,environment,#a88532,#735819,1,0.46285455718217483
+'land degradation',en,environment,#a88532,#735819,1,0.4628545571821748
 'deforestation',en,environment,#a88532,#96814e,1,0.5433225068212295
 'reforestation',en,environment,#a88532,#6e5d2c,1,0.5229296272340129
 'Desertification',en,environment,#a88532,#968141,1,0.5458036598572671
