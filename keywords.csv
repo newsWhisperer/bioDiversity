@@ -14,7 +14,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'SDG 14',en,conservation,#2d5496,#3c70c9,1,0.2298762265730665
 'SDG 15',en,conservation,#2d5496,#14356e,1,0.2237337076112198
 'Sustainable Development Goal 14',en,conservation,#2d5496,#0c2652,1,0.4583425741662146
-'Sustainable Development Goal 15',en,conservation,#2d5496,#4168ab,1,0.028727165966792027
+'Sustainable Development Goal 15',en,conservation,#2d5496,#4168ab,1,0.028727165966792
 'land degradation',en,environment,#a88532,#735819,1,0.4628545571821748
 'deforestation',en,environment,#a88532,#96814e,1,0.5433225068212295
 'reforestation',en,environment,#a88532,#6e5d2c,1,0.5229296272340129
@@ -23,5 +23,5 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'invasive alien species',en,invasive,#ba30ba,#c248c2,1,0.4319311965071947
 'protected species',en,conservation,#2d5496,#1e4485,1,0.4637045632937016
 'rare species',en,extinction,#802017,#b03227,1,0.4317994578213024
-'poaching',en,extinction,#802017,#52140f,1,0.5439233616937735
+'poaching',en,extinction,#802017,#52140f,1,0.5407271936090848
 'invasive species',en,invasive,#ba30ba,#751575,1,0.5224560151607232
