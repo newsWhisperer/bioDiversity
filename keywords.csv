@@ -3,10 +3,10 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'species extinction',en,extinction,#802017,#a31d2f,1,0.552925792689281
 'wildlife conservation',en ,conservation,#2d5496,#0c1b63,1,8.903462698608528e-17
 'species conservation',en,conservation,#2d5496,#4c60c7,1,0.4806307427792188
-'endangered species',en,extinction,#802017,#b33646,1,0.42366843250297037
+'endangered species',en,extinction,#802017,#b33646,1,0.4236684325029703
 'threatened species',en,extinction,#802017,#a35b43,1,0.4788066929356367
 'insect mortality',en,extinction,#802017,#9c4122,1,0.0082612574322589
-'insect extinction',en,extinction,#802017,#993412,1,0.0008694091869448
+'insect extinction',en,extinction,#802017,#993412,1,0.00082593872759756
 'diversity of species',en,biodiversity,#16520f,#468c3c,1,0.5093494274738787
 'species diversity',en,biodiversity,#16520f,#26571f,1,0.469538382287902
 'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,2.275085493309603e-06
