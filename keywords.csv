@@ -10,11 +10,11 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'diversity of species',en,biodiversity,#16520f,#468c3c,1,0.5071878582951754
 'species diversity',en,biodiversity,#16520f,#26571f,1,0.4807019636825431
 'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,4.40710188179004e-07
-'zero extinctions',en,conservation,#2d5496,#374587,1,0.001528803373449395
+'zero extinctions',en,conservation,#2d5496,#374587,1,0.0015288033734493
 'SDG 14',en,conservation,#2d5496,#3c70c9,1,0.2660991546066695
 'SDG 15',en,conservation,#2d5496,#14356e,1,0.2493229613590936
 'Sustainable Development Goal 14',en,conservation,#2d5496,#0c2652,1,0.4354254454579038
-'Sustainable Development Goal 15',en,conservation,#2d5496,#4168ab,1,0.001800393635725
+'Sustainable Development Goal 15',en,conservation,#2d5496,#4168ab,1,0.0017103739539387499
 'land degradation',en,environment,#a88532,#735819,1,0.4781602656346905
 'deforestation',en,environment,#a88532,#96814e,1,0.5296980481468346
 'reforestation',en,environment,#a88532,#6e5d2c,1,0.4923876970198901
