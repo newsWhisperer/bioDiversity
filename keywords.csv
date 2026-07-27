@@ -14,11 +14,11 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'SDG 14',en,conservation,#2d5496,#3c70c9,1,0.2401544870325191
 'SDG 15',en,conservation,#2d5496,#14356e,1,0.2868568132911389
 'Sustainable Development Goal 14',en,conservation,#2d5496,#0c2652,1,0.4184478912994701
-'Sustainable Development Goal 15',en,conservation,#2d5496,#4168ab,1,0.00033131907759584496
+'Sustainable Development Goal 15',en,conservation,#2d5496,#4168ab,1,0.0003313190775958
 'land degradation',en,environment,#a88532,#735819,1,0.4711857748611154
 'deforestation',en,environment,#a88532,#96814e,1,0.5221789773918262
 'reforestation',en,environment,#a88532,#6e5d2c,1,0.4916813556471564
-'Desertification',en,environment,#a88532,#968141,1,0.4836786455159335
+'Desertification',en,environment,#a88532,#968141,1,0.47362514802274547
 'ecosystem',en,environment,#a88532,#debf76,1,0.4940116069478324
 'invasive alien species',en,invasive,#ba30ba,#c248c2,1,0.4711718373016078
 'protected species',en,conservation,#2d5496,#1e4485,1,0.4600701752997986
