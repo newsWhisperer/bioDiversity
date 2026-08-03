@@ -9,7 +9,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'insect extinction',en,extinction,#802017,#993412,1,2.797085741403935e-05
 'diversity of species',en,biodiversity,#16520f,#468c3c,1,0.5101076805055347
 'species diversity',en,biodiversity,#16520f,#26571f,1,0.511498099026003
-'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,6.275525396464968e-08
+'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,5.96174912664172e-08
 'zero extinctions',en,conservation,#2d5496,#374587,1,0.0002539088377132
 'SDG 14',en,conservation,#2d5496,#3c70c9,1,0.2401544870325191
 'SDG 15',en,conservation,#2d5496,#14356e,1,0.2868568132911389
