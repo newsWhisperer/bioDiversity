@@ -8,8 +8,8 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'insect mortality',en,extinction,#802017,#9c4122,1,0.028667880581452
 'insect extinction',en,extinction,#802017,#993412,1,2.3981513875361984e-05
 'diversity of species',en,biodiversity,#16520f,#468c3c,1,0.5101076805055347
-'species diversity',en,biodiversity,#16520f,#26571f,1,0.511498099026003
-'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,3.955146176833842e-08
+'species diversity',en,biodiversity,#16520f,#26571f,1,0.5198517655032743
+'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,3.9551461768338424e-08
 'zero extinctions',en,conservation,#2d5496,#374587,1,0.0002176950897342
 'SDG 14',en,conservation,#2d5496,#3c70c9,1,0.2401544870325191
 'SDG 15',en,conservation,#2d5496,#14356e,1,0.3225139726265819
