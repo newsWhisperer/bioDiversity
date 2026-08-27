@@ -9,14 +9,14 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'insect extinction',en,extinction,#802017,#993412,1,0.0590693317413745
 'diversity of species',en,biodiversity,#16520f,#468c3c,1,0.5008186102276735
 'species diversity',en,biodiversity,#16520f,#26571f,1,0.5198517655032743
-'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,2.249687510349977e-08
+'zero-extinction',en,conservation,#2d5496,#1f2c6b,1,2.2496875103499772e-08
 'zero extinctions',en,conservation,#2d5496,#374587,1,0.0001600258950922
 'SDG 14',en,conservation,#2d5496,#3c70c9,1,0.2404894245468484
 'SDG 15',en,conservation,#2d5496,#14356e,1,0.29106886029549
 'Sustainable Development Goal 14',en,conservation,#2d5496,#0c2652,1,0.4475254967344965
 'Sustainable Development Goal 15',en,conservation,#2d5496,#4168ab,1,0.0001316046815987
 'land degradation',en,environment,#a88532,#735819,1,0.4711857748611154
-'deforestation',en,environment,#a88532,#96814e,1,0.5334404401396015
+'deforestation',en,environment,#a88532,#96814e,1,0.5297413911055944
 'reforestation',en,environment,#a88532,#6e5d2c,1,0.4966891245994925
 'Desertification',en,environment,#a88532,#968141,1,0.4634855572882748
 'ecosystem',en,environment,#a88532,#debf76,1,0.5050024520146048
